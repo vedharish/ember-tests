@@ -1,5 +1,17 @@
 # Ember-tests
 
+To test on BrowserStack,
+ - `npm install -g browserstack-jstesting-cli`
+ - `./node_modules/.bin/ember test`
+
+To test locally on IE,
+ - `edit testem.js and add 'IE' to the field 'launch_in_ci'`
+ - `./node_modules/.bin/ember test`
+
+ To check the server logs, check - `testem_server_log.txt`
+
+-----
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
